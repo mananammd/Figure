@@ -1,6 +1,5 @@
 #include "Parallelogram.h"
 #define PI 3.14159265 
-double _a1, _b1, _ang;
 
 Parallelogram::Parallelogram(double a, double b, double ang) {
     _name = "Parallelogram";
@@ -16,7 +15,6 @@ double Parallelogram::calculateP() const {
 }
 
 double Parallelogram::calculateS() const {
-    const double p = calculateP() / 2;
     return _a1 * _b1 * sin(_ang * PI / 180);
 }
 

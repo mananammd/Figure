@@ -1,6 +1,5 @@
 #include "Ellipse.h"
 #define PI 3.14159265 
-double _ra, _rb;
 
 Ellipse::Ellipse(double a, double b) {
     _name = "Ellipse";

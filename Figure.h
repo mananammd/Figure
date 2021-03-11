@@ -13,9 +13,7 @@ public:
     virtual double calculateS() const = 0;
     virtual double calculateP() const = 0;
 
-    std::string getName() const {
-        return _name;
-    }
+    std::string getName() const;
 
 protected:
     std::string _name;
