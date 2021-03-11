@@ -1,6 +1,5 @@
 #include "Figure.h"
 
-std::string _name;
-std::string getName() {
+std::string Figure::getName() const {
         return _name;
 }

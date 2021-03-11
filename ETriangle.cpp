@@ -1,7 +1,7 @@
  #include "ETriangle.h"
 
  ETriangle::ETriangle(double a) 
-        : Triangle(a, a, a) 
+        : ITriangle(a, a) 
     {
         _name = "ETriangle";
     }

@@ -1,7 +1,5 @@
 #include "Triangle.h"
 
-double _a, _b, _c;
-
 Triangle::Triangle(double a, double b, double c) {
     _name = "Triangle";
     _a = a;

@@ -51,7 +51,7 @@ int main() {
 
 
 
-    Ellipse *e = new Ellipse(2, 3);
+    Ellipse *e = new Ellipse(3, 1);
     std::cout << e->getName() << std::endl;
     std::cout << e->calculateP() << std::endl;
     std::cout << e->calculateS() << std::endl;

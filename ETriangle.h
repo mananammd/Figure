@@ -1,7 +1,7 @@
 #pragma once
-#include "Triangle.h"
+#include "ITriangle.h"
 
-class ETriangle : public Triangle {
+class ETriangle : public ITriangle {
 public:
     ETriangle(double a);
 };
